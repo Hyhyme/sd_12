@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html>
 
-  <body>
-    <h1>Current Country</h1>
+<style>
+  #mysvg {
+    border: 5px solid;
+  }
+</style>
 
-    <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" id="svg">
+<head>
+  <title> Work 12 </title>
+</head>
+
+<body>
+    <h1 id="label">PLACEHOLDER</h1>
+    <p>NOTE: All radius values are 5 times the real number to make them more visable</p>
+    <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" id="mysvg">
     </svg>
-
-    <button id="switch">Switch Country</button>
+    <br>
+    <button id="toggle">Switch Country</button>
 
     <script src="https://d3js.org/d3.v4.min.js"></script>
-    
     <script src="medal.js"></script>
 
-  </body>
+ </body>
 </html>
